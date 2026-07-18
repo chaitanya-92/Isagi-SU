@@ -10,7 +10,7 @@ Default expected hash = Aarsu primary cert baked into kernel/Kbuild.
 """
 import sys, struct, hashlib, zipfile
 
-EXPECTED = "c8ef6fcd62c9bd64744f79450b8f16ed48db465e60c083b259df1596b5cbdb05"
+EXPECTED = "887726cc3f731f23b4a4a5161f3c8e4539ae318692e035683fae578b5ec6be7e"
 
 V2_ID, V3_ID, V31_ID = 0x7109871a, 0xf05368c0, 0x1b93ad61
 MAGIC = b"APK Sig Block 42"
