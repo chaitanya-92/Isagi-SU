@@ -42,7 +42,7 @@ apksign {
 }
 
 android {
-    namespace = "com.tanishqsu.manager"
+    namespace = "com.jigsu.manager"
 
     buildTypes {
         release {
@@ -87,7 +87,7 @@ android {
     applicationVariants.all {
         outputs.forEach {
             val output = it as BaseVariantOutputImpl
-            output.outputFileName = "Tanishq_SU_${managerVersionName}_${managerVersionCode}-$name.apk"
+            output.outputFileName = "Jig_SU_${managerVersionName}_${managerVersionCode}-$name.apk"
         }
         kotlin.sourceSets {
             getByName(name) {
