@@ -17,5 +17,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "KernelSU-Next"
+rootProject.name = "Isagi Su"
 include(":app")
