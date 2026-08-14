@@ -146,8 +146,8 @@ ccflags-y += -DEXPECTED_MANAGER_HASH=\"$(KSU_NEXT_MANAGER_HASH)\"
 # --- Additional trusted managers (different signing keys) ---
 # Each extra brand is trusted independently. Define a size/hash pair per slot.
 # Values come from `manager/newbrand.sh`. Cert must stay <= 1024 bytes (RSA-2048).
-KSU_NEXT_MANAGER_SIZE_2 := 0x2cd
-KSU_NEXT_MANAGER_HASH_2 := 161eeacffa7d827a439fc4016144a4b06bb534606c9da288b5fea971837702a2
+KSU_NEXT_MANAGER_SIZE_2 := 0x383
+KSU_NEXT_MANAGER_HASH_2 := 6fc4dfb1769779764fda04cf2ba5d55940c4ad15bd33c332bea79f5a69d0851f
 
 ifdef KSU_NEXT_MANAGER_SIZE_2
 ccflags-y += -DEXPECTED_MANAGER_SIZE_2=$(KSU_NEXT_MANAGER_SIZE_2)
